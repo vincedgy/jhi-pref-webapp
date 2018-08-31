@@ -1,0 +1,25 @@
+
+{
+    "prefWebApp": {
+        "businessService" : {
+            "home": {
+                "title": "BusinessServices",
+                "createLabel": "Créer un nouveau Business Service",
+                "createOrEditLabel": "Créer ou éditer un Business Service"
+            },
+            "created": "Un nouveau Business Service a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Business Service avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Business Service avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Business Service {{ id }} ?"
+            },
+            "detail": {
+                "title": "Business Service"
+            },
+            "name": "Name",
+            "description": "Description",
+            "active": "Active",
+            "preferences": "Preferences"
+        }
+    }
+}

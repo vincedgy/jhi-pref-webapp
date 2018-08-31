@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="businessOrganization">
+            <h2><span jhiTranslate="prefWebApp.businessOrganization.detail.title">Business Organization</span> {{businessOrganization.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="prefWebApp.businessOrganization.name">Name</span></dt>
+                <dd>
+                    <span>{{businessOrganization.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="prefWebApp.businessOrganization.active">Active</span></dt>
+                <dd>
+                    <span>{{businessOrganization.active}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/business-organization', businessOrganization.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

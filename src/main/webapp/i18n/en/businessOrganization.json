@@ -1,0 +1,24 @@
+
+{
+    "prefWebApp": {
+        "businessOrganization" : {
+            "home": {
+                "title": "Business Organizations",
+                "createLabel": "Create a new Business Organization",
+                "createOrEditLabel": "Create or edit a Business Organization"
+            },
+            "created": "A new Business Organization is created with identifier {{ param }}",
+            "updated": "A Business Organization is updated with identifier {{ param }}",
+            "deleted": "A Business Organization is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Business Organization {{ id }}?"
+            },
+            "detail": {
+                "title": "Business Organization"
+            },
+            "name": "Name",
+            "active": "Active",
+            "employees": "Employees"
+        }
+    }
+}

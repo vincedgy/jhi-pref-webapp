@@ -41,6 +41,13 @@ public class CacheConfiguration {
             cm.createCache(org.vincedgy.prefwebapp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(org.vincedgy.prefwebapp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(org.vincedgy.prefwebapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.Employee.class.getName() + ".preferences", jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.BusinessOrganization.class.getName(), jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.BusinessOrganization.class.getName() + ".employees", jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.BusinessService.class.getName(), jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.BusinessService.class.getName() + ".preferences", jcacheConfiguration);
+            cm.createCache(org.vincedgy.prefwebapp.domain.Preference.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

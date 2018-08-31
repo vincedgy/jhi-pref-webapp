@@ -1,0 +1,28 @@
+
+{
+    "prefWebApp": {
+        "employee" : {
+            "home": {
+                "title": "Utilisateurs",
+                "createLabel": "Créer un nouveau utilisateur",
+                "createOrEditLabel": "Créer ou éditer un utilisateur"
+            },
+            "created": "Un nouvel utilisateur a été créé avec l'identifiant {{ param }}",
+            "updated": "L'utilisateur avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "L'utilisateur avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer l'utilisateur {{ id }} ?"
+            },
+            "detail": {
+                "title": "Utilisateur"
+            },
+            "email": "Email",
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "lang": "Langue préférée",
+            "active": "Est actif",
+            "preferences": "Préférences",
+            "organization": "Organisation"
+        }
+    }
+}

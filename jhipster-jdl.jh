@@ -1,0 +1,47 @@
+entity Employee {
+	email String required,
+    firstName String,
+    lastName String,
+    lang Lang,
+    active Boolean
+}
+
+enum Lang {
+    FRENCH, ENGLISH, SPANISH
+}
+
+entity BusinessOrganization {
+	name String required,
+    active Boolean
+}
+
+entity BusinessService {
+	name String required,
+    description String,
+    active Boolean
+}
+
+entity Preference {
+    active Boolean,
+    content TextBlob
+}
+
+relationship OneToMany {
+	BusinessOrganization{employees} to Employee{organization}
+}
+
+relationship OneToMany {
+	Employee{preferences} to Preference{employee}
+}
+
+relationship OneToMany {
+	BusinessService{preferences} to Preference{businessService}
+}
+
+
+// Set pagination options
+paginate Employee, BusinessOrganization with infinite-scroll
+paginate Preference with pagination
+
+dto * with mapstruct
+service all with serviceImpl

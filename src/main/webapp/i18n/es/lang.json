@@ -1,0 +1,10 @@
+{
+    "prefWebApp": {
+        "Lang" : {
+            "null": "",
+            "FRENCH": "FRENCH",
+            "ENGLISH": "ENGLISH",
+            "SPANISH": "SPANISH"
+        }
+    }
+}

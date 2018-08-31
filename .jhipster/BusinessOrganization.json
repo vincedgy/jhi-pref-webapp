@@ -1,0 +1,33 @@
+{
+    "name": "BusinessOrganization",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "active",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "employees",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "organization"
+        }
+    ],
+    "changelogDate": "20180828212216",
+    "entityTableName": "business_organization",
+    "dto": "mapstruct",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

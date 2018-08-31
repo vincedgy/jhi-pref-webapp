@@ -1,0 +1,24 @@
+
+{
+    "prefWebApp": {
+        "businessOrganization" : {
+            "home": {
+                "title": "Organisation",
+                "createLabel": "Créer une nouvelle organisation",
+                "createOrEditLabel": "Créer ou éditer une organisation"
+            },
+            "created": "Une nouvelle organisation a été créé avec l'identifiant {{ param }}",
+            "updated": "L'organisation avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "L'organisation avec l'identifiant {{ param }} a été supprimée",
+            "delete": {
+                "question": "Etês-vous certain(e) de vouloir supprimer l'organisation {{ name }} ({{id}}) ?"
+            },
+            "detail": {
+                "title": "Organisation"
+            },
+            "name": "Dénomination",
+            "active": "Est active",
+            "employees": "Liste des utilisateurs de l'organisation"
+        }
+    }
+}

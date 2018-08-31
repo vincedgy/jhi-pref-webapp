@@ -1,0 +1,28 @@
+
+{
+    "prefWebApp": {
+        "employee" : {
+            "home": {
+                "title": "Employees",
+                "createLabel": "Crear nuevo Employee",
+                "createOrEditLabel": "Crear o editar Employee"
+            },
+            "created": "Un nuevo Employee ha sido creado con el identificador {{ param }}",
+            "updated": "Un Employee ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Employee ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Employee {{ id }}?"
+            },
+            "detail": {
+                "title": "Employee"
+            },
+            "email": "Email",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "lang": "Lang",
+            "active": "Active",
+            "preferences": "Preferences",
+            "organization": "Organization"
+        }
+    }
+}

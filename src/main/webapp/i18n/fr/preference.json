@@ -1,0 +1,25 @@
+
+{
+    "prefWebApp": {
+        "preference" : {
+            "home": {
+                "title": "Préférences",
+                "createLabel": "Créer un nouveau ensemble de préférence",
+                "createOrEditLabel": "Créer ou éditer un ensemble de préférence"
+            },
+            "created": "Un nouvel ensemble de préférence a été créé avec l'identifiant {{ param }}",
+            "updated": "L'ensemble de préférence avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "L'ensemble de préférence avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer l'ensemble de préférence {{ id }} ?"
+            },
+            "detail": {
+                "title": "Préférences"
+            },
+            "active": "Est active",
+            "content": "Contenu",
+            "employee": "Utilisateur",
+            "businessService": "Service"
+        }
+    }
+}
